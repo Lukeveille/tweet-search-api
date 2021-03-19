@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tweets",
+  "info": {
+    "name": "tweet"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "favorite_count": {
+      "type": "integer"
+    },
+    "is_retweet": {
+      "type": "boolean"
+    },
+    "tweet_id": {
+      "type": "biginteger",
+      "unique": true
+    },
+    "screen_name": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "retweet_count": {
+      "type": "integer"
+    },
+    "user_name": {
+      "type": "string"
+    }
+  }
+}
