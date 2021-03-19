@@ -1,5 +1,5 @@
 'use strict';
-let data = require("../../data/chelsea_twitter.json")
+// let data = require("../../data/chelsea_twitter.json")
 
 /**
  * An asynchronous bootstrap function that runs before
